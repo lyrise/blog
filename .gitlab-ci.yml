@@ -1,19 +1,19 @@
-image: node:10.15.3
+image: registry.gitlab.com/pages/hugo:latest
 
-cache:
-  paths:
-    - node_modules/
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
-before_script:
-  - npm install hexo-cli -g
-  - test -e package.json && npm install
-  - hexo generate
+test:
+  script:
+  - hugo
+  except:
+  - master
 
 pages:
   script:
-    - hexo generate
+  - hugo
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - master
+  - master
