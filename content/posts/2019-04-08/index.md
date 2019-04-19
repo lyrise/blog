@@ -56,7 +56,7 @@ VSCodeをWSLにインストールする方法はうまくいかなかった。
 
 「[WSLに開発環境完全移行してみる](https://qiita.com/LeftLetter/items/0eda1834a46c3b3bff60)」の通りに環境を構築してみたが、
 
-```
+```txt
 /usr/share/code/bin/../code: error while loading shared libraries: libx11-xcb.so.1: cannot open shared object file ～
 ```
 
@@ -73,10 +73,10 @@ VSCodeをWSLにインストールする方法はうまくいかなかった。
 
 ### golangのインストールを行う。
 
-コマンドプロンプト起動し
+コマンドプロンプトを起動し
 
-```
-choco install golang
+```sh
+$ choco install golang
 ```
 
 を実行する。

@@ -1,4 +1,4 @@
-baseurl = "https://lyrise.gitlab.io/Blog/"
+baseurl = "https://lyrise.gitlab.io/blog/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 3
