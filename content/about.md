@@ -7,12 +7,10 @@ title: About
 ### Omnius Labs
 
 + Github: https://github.com/omnius-labs
-+ Gitlab: https://gitlab.com/omnius-labs
-+ Docs: https://omnius-labs.gitlab.io/docs/
++ Docs: https://docs.omnius-labs.com/
 
 ### Lyrise
 
++ Blog: https://blog.lyrise.omnius-labs.com/
 + Github: https://github.com/lyrise
-+ Gitlab: https://gitlab.com/lyrise
-+ Blog: https://lyrise.gitlab.io/blog/
-+ Twitter: https://twitter.com/Lyrise_al
++ Twitter: https://twitter.com/lyrise1984
