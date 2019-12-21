@@ -11,6 +11,6 @@ title: About
 
 ### Lyrise
 
-+ Blog: https://blog.lyrise.omnius-labs.com/
++ Blog: https://lyrise.blog.omnius-labs.com/
 + Github: https://github.com/lyrise
 + Twitter: https://twitter.com/lyrise1984
