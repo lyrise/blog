@@ -6,11 +6,11 @@ title: About
 
 ### Omnius Labs
 
-+ Github: https://github.com/omnius-labs
 + Docs: https://docs.omnius-labs.com/
++ GitHub: https://github.com/omnius-labs
 
 ### Lyrise
 
 + Blog: https://lyrise.blog.omnius-labs.com/
-+ Github: https://github.com/lyrise
++ GitHub: https://github.com/lyrise
 + Twitter: https://twitter.com/lyrise1984
