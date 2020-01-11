@@ -8,4 +8,5 @@
 
 ## License
 
-+ MIT License
++ MIT License.
+  
