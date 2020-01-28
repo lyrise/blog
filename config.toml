@@ -2,6 +2,7 @@ baseurl = "https://lyrise.blog.omnius-labs.com/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 3
+hasCJKLanguage = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
