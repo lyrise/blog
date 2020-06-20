@@ -9,3 +9,19 @@ date: 2020-06-20T14:52:59+09:00
 ```sh
 sudo lshw -short | grep disk | awk '{print $2}' | sort | uniq | xargs -L 1 -I {} sh -c "echo {} && sudo smartctl -A {} | grep 'Reallocated_Event_Count' | awk '{print \$2,\$10}'"
 ```
+
+以下のように一覧表示される。
+
+```
+/dev/sda
+Reallocated_Event_Count 95
+/dev/sdb
+/dev/sdc
+Reallocated_Event_Count 0
+/dev/sdd
+Reallocated_Event_Count 0
+/dev/sde
+Reallocated_Event_Count 0
+/dev/sdf
+Reallocated_Event_Count 0
+```
