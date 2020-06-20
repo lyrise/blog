@@ -1,7 +1,6 @@
 ---
 title: "SMARTのReallocated_Event_Countを調査するコマンド"
 date: 2020-06-20T14:52:59+09:00
-draft: true
 ---
 
 対象はUbuntuの環境。
