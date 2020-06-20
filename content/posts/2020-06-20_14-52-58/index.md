@@ -28,8 +28,7 @@ Reallocated_Event_Count 0
 
 forで回したほうが見通しが良くなるので以下も追記。
 
-sh
-```
+```sh
 for v in $(lshw -short | grep disk | awk '{print $2}' | sort | uniq)
 do
     echo "$v $(smartctl -A $v | grep 'Reallocated_Event_Count' | awk '{print $2,$10}')"
