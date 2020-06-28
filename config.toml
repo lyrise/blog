@@ -1,41 +1,73 @@
-baseurl = "https://lyrise.blog.omnius-labs.com/"
-languageCode = "en-us"
-theme = "hello-friend"
-paginate = 3
+baseurl        = "https://lyrise.blog.omnius-labs.com/"
+title          = "Lyrise"
+languageCode   = "en-us"
+theme          = "hello-friend-ng"
+paginate       = 10
 hasCJKLanguage = true
 
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        style = "monokai"
+        tabWidth = 4
+
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # "light" or "dark"
-  defaultTheme = "dark"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # Show reading time in minutes for posts
-  showReadingTime = false
+    dateform        = "2006/01/02"
+    dateformShort   = "01/02"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+
+    # Subtitle for home
+    homeSubtitle = ""
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Metadata mostly used in document's head
+    description = ""
+    keywords = "blog"
+    images = [""]
+
+    # Default theme "light" or "dark"
+    defaultTheme = "dark"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
 
 [languages]
-  [languages.en]
-    title = "Lyrise"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    [languages.en]
+        title = "Lyrise"
+        subtitle = ""
+        keywords = ""
+        copyright = ""
+        readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Lyrise"
-      logoHomeLink = "/"
+        logoText = "Lyrise"
+        logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+# And you can even create generic menu
+[[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+[[menu.main]]
+    identifier = "docs"
+    name       = "Docs"
+    url        = "/docs"
+[[menu.main]]
+    identifier = "abount"
+    name       = "About"
+    url        = "/about"
