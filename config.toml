@@ -1,7 +1,7 @@
 baseurl        = "https://lyrise.blog.omnius-labs.com/"
 title          = "Lyrise"
 languageCode   = "en-us"
-theme          = "hello-friend-ng"
+theme          = "hello-friend"
 paginate       = 10
 hasCJKLanguage = true
 
@@ -63,10 +63,6 @@ hasCJKLanguage = true
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
-[[menu.main]]
-    identifier = "docs"
-    name       = "Docs"
-    url        = "/docs"
 [[menu.main]]
     identifier = "abount"
     name       = "About"
