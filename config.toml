@@ -6,16 +6,12 @@ paginate       = 10
 hasCJKLanguage = true
 
 [markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
     [markup.highlight]
-        codeFences = true
+        codeFences = false
         guessSyntax = false
-        hl_Lines = ""
-        lineNoStart = 1
-        lineNos = false
-        lineNumbersInTable = true
-        noClasses = true
-        style = "monokai"
-        tabWidth = 4
 
 [params]
     dateform        = "2006/01/02"

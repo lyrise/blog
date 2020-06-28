@@ -9,10 +9,10 @@ AutoHotKeyを以下の設定で起動する
 
 keymap.ahk
 
-```
-;Alt単押しの無効化
+<pre class="language-ahk line-numbers">
+<code>;Alt単押しの無効化
 ~LAlt::Send {Blind}{vk07}
-```
+</code></pre>
 
 ※参考: https://github.com/karakaram/alt-ime-ahk/issues/2
 
