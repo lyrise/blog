@@ -17,5 +17,8 @@
     "postcss-nested": "^4.2.3",
     "postcss-preset-env": "^6.7.0",
     "postcss-url": "^8.0.0"
+  },
+  "scripts": {
+    "build": "npm ci && hugo --gc --minify"
   }
 }
