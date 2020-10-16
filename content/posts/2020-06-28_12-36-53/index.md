@@ -4,11 +4,11 @@ date: 2020-06-28T12:36:54+09:00
 draft: true
 ---
 
-```
+```txt
 |awk '{printf "'\''%s'\''\n", $1}' |tr "\n" ","
 ```
 
-```
+```txt
 nkf --overwrite --oc=UTF-8 file
 ```
 
