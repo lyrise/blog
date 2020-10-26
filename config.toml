@@ -36,8 +36,6 @@ enableEmoji = true
     hasCJKLanguage = true
     # default amount of posts in each pages
     paginate = 12
-    # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "[UA-104419086-2]"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -530,10 +528,10 @@ enableEmoji = true
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-104419086-2 "
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
