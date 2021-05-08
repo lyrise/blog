@@ -1,7 +1,7 @@
 ---
 title: "Lyrise Release Notes (ver 0.29.0)"
 date: 2021-04-22T22:14:21+09:00
-tags: ["output"]
+tags: ["lyrise-release-notes"]
 ---
 
 # 良き人と知り合えた
