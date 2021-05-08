@@ -4,7 +4,7 @@ date: 2021-05-08T10:25:35+09:00
 tags: ["mini-rdbms-rs"]
 ---
 
-ref. https://github.com/lyrise/simple-rdbms-rs
+ref. https://github.com/lyrise/mini-rdbms-rs
 
 # 第1章
 
