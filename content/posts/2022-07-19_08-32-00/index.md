@@ -6,12 +6,12 @@ date: 2022-07-19T08:32:00+09:00
 ## 概要
 
 以下を参考に作業
-https://githubhot.com/repo/Grench6/RX580-rocM-tensorflow-ubuntu20.4-guide/issues/13
+https://github.com/Grench6/RX580-rocM-tensorflow-ubuntu20.4-guide
 
 ## 注意点1
 
 linuxカーネルは'5.4.0-42'にダウングレードしておく必要がある
-ref. https://github.com/Grench6/RX580-rocM-tensorflow-ubuntu20.4-guide
+ref. https://github.com/Grench6/RX580-rocM-tensorflow-ubuntu20.4-guide/issues/13
 
 ## 注意点2
 
