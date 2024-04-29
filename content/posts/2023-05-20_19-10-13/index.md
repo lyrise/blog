@@ -11,3 +11,7 @@ date: 2023-05-20T19:10:13+09:00
 {{< figure src="3.png" title="Screenshot" class="center" >}}
 
 特に不便はない
+
+kyemap.cは以下の通り
+
+https://gist.github.com/lyrise/e41b90ce4275f06696f2e084c3667a16
