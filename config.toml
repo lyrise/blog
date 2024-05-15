@@ -9,7 +9,7 @@ theme = "LoveIt"
 # 主题目录
 themesDir = "./themes/"
 
-description = "My God, It's Full of Stars"
+description = "All is well that ends well."
 
 # website title
 # 网站标题
@@ -135,7 +135,7 @@ avatarURL = ""
 # title shown in home page (HTML format is supported)
 title = ""
 # subtitle shown in home page
-subtitle = "My God, It's Full of Stars."
+subtitle = "All is well that ends well."
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
@@ -160,7 +160,7 @@ RSS = true
 version = "0.2.X"
 # site default theme ("light", "dark", "auto")
 # 网站默认主题 ("light", "dark", "auto")
-defaultTheme = "auto"
+defaultTheme = "dark"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
 gitRepo = "https://github.com/lyrise/blog"
@@ -226,7 +226,7 @@ since = 2019
 icp = ""
 # license info (HTML format is supported)
 # 许可协议信息 (支持 HTML 格式)
-license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+license = 'MIT License'
 
 # Section (all posts) page config
 # Section (所有文章) 页面配置
