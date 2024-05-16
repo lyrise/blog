@@ -1,0 +1,344 @@
+baseURL: https://lyrise.blog.omnius-labs.com/
+defaultContentLanguage: en
+theme: LoveIt
+themesDir: ./themes/
+description: All is well that ends well.
+title: Lyrise
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+languages:
+  en:
+    weight: 1
+    languageCode: en
+    languageName: English
+    hasCJKLanguage: true
+    paginate: 12
+    copyright: MIT License.
+    menu:
+      main:
+        - identifier: posts
+          pre: ""
+          post: ""
+          name: Posts
+          url: /posts/
+          title: ""
+          weight: 1
+        - identifier: tags
+          pre: ""
+          post: ""
+          name: Tags
+          url: /tags/
+          title: ""
+          weight: 2
+        - identifier: categories
+          pre: ""
+          post: ""
+          name: Categories
+          url: /categories/
+          title: ""
+          weight: 3
+        - identifier: about
+          pre: ""
+          post: ""
+          name: About
+          url: /about/
+          title: ""
+          weight: 4
+        - identifier: github
+          pre: <i class='fab fa-github fa-fw'></i>
+          post: ""
+          name: ""
+          url: https://github.com/lyrise/blog
+          title: GitHub
+          weight: 5
+    params:
+      keywords:
+        - lyrise
+      app:
+        title: Lyrise
+        noFavicon: true
+        svgFavicon: ""
+        themeColor: "#ffffff"
+        iconColor: "#5bbad5"
+        tileColor: "#da532c"
+      search:
+        enable: false
+        type: algolia
+        contentLength: 4000
+        placeholder: ""
+        maxResultLength: 10
+        snippetLength: 30
+        highlightTag: em
+        absoluteURL: false
+        algolia:
+          index: index.en
+          appID: ""
+          searchKey: ""
+      home:
+        rss: 10
+        profile:
+          enable: true
+          gravatarEmail: ""
+          avatarURL: ""
+          title: ""
+          subtitle: All is well that ends well.
+          typeit: true
+          social: true
+          disclaimer: ""
+        posts:
+          enable: true
+          paginate: 6
+      social:
+        GitHub: lyrise
+        Twitter: lyrise1984
+        Email: lyrise1984@gmail.com
+        RSS: true
+params:
+  version: 0.2.X
+  defaultTheme: dark
+  gitRepo: https://github.com/lyrise/blog
+  fingerprint: ""
+  dateFormat: 2006-01-02
+  images:
+    - ""
+  header:
+    desktopMode: fixed
+    mobileMode: auto
+    title:
+      logo: ""
+      name: Lyrise
+      pre: ""
+      post: ""
+      typeit: false
+  footer:
+    enable: true
+    custom: ""
+    hugo: true
+    copyright: true
+    author: true
+    since: 2019
+    icp: ""
+    license: MIT License
+  section:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  list:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  page:
+    hiddenFromHomePage: false
+    hiddenFromSearch: false
+    twemoji: false
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    rssFullText: true
+    toc:
+      enable: true
+      keepStatic: false
+      auto: true
+    code:
+      copy: true
+      maxShownLines: 120
+    math:
+      enable: false
+      blockLeftDelimiter: ""
+      blockRightDelimiter: ""
+      inlineLeftDelimiter: ""
+      inlineRightDelimiter: ""
+      copyTex: true
+      mhchem: true
+    mapbox:
+      accessToken: ""
+      lightStyle: mapbox://styles/mapbox/light-v10?optimize=true
+      darkStyle: mapbox://styles/mapbox/dark-v10?optimize=true
+      navigation: true
+      geolocate: true
+      scale: true
+      fullscreen: true
+    share:
+      enable: true
+      Twitter: true
+      Facebook: true
+      Linkedin: false
+      Whatsapp: false
+      Pinterest: false
+      Tumblr: false
+      HackerNews: true
+      Reddit: false
+      VK: false
+      Buffer: false
+      Xing: false
+      Line: true
+      Instapaper: false
+      Pocket: false
+      Digg: false
+      Stumbleupon: false
+      Flipboard: false
+      Weibo: true
+      Renren: false
+      Myspace: false
+      Blogger: false
+      Baidu: false
+      Odnoklassniki: false
+      Evernote: false
+      Skype: false
+      Trello: false
+      Mix: false
+    comment:
+      enable: false
+      disqus:
+        enable: false
+        shortname: ""
+      gitalk:
+        enable: false
+        owner: ""
+        repo: ""
+        clientId: ""
+        clientSecret: ""
+      valine:
+        enable: false
+        appId: ""
+        appKey: ""
+        placeholder: ""
+        avatar: mp
+        meta: ""
+        pageSize: 10
+        lang: ""
+        visitor: true
+        recordIP: true
+        highlight: true
+        enableQQ: false
+        serverURLs: https://leancloud.hugoloveit.com
+        emoji: ""
+      facebook:
+        enable: false
+        width: 100%
+        numPosts: 10
+        appId: ""
+        languageCode: ""
+      telegram:
+        enable: false
+        siteID: ""
+        limit: 5
+        height: ""
+        color: ""
+        colorful: true
+        dislikes: false
+        outlined: false
+      commento:
+        enable: false
+      utterances:
+        enable: false
+        repo: ""
+        issueTerm: pathname
+        label: ""
+        lightTheme: github-light
+        darkTheme: github-dark
+    library:
+      css:
+        customFont: css/custom-font.css
+      js: {}
+    seo:
+      images: []
+      publisher:
+        name: xxxx
+        logoUrl: /images/avatar.png
+  typeit:
+    speed: 100
+    cursorSpeed: 1000
+    cursorChar: "|"
+    duration: -1
+  verification:
+    google: ""
+    bing: ""
+    yandex: ""
+    pinterest: ""
+    baidu: ""
+  seo:
+    image: /images/Apple-Devices-Preview.png
+    thumbnailUrl: /images/screenshot.png
+  analytics:
+    enable: true
+    google:
+      id: G-C7JSY0R1GG
+      anonymizeIP: true
+    fathom:
+      id: ""
+      server: ""
+  cookieconsent:
+    enable: false
+    content:
+      message: ""
+      dismiss: ""
+      link: ""
+  cdn:
+    data: jsdelivr.yml
+  compatibility:
+    polyfill: false
+    objectFit: false
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+author:
+  name: Lyrise
+  email: ""
+  link: ""
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+Permalinks:
+  posts: :filename
+privacy:
+  googleAnalytics: {}
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+mediaTypes:
+  text/plain:
+    suffixes:
+      - md
+outputFormats:
+  MarkDown:
+    mediaType: text/plain
+    isPlainText: true
+    isHTML: false
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
