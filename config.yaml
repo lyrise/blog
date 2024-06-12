@@ -1,5 +1,4 @@
 baseURL: https://lyrise.blog.omnius-labs.com/
-defaultContentLanguage: en
 theme: LoveIt
 themesDir: ./themes/
 description: All is well that ends well.
@@ -7,11 +6,13 @@ title: Lyrise
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
+
+defaultContentLanguage: ja
 languages:
-  en:
+  ja:
     weight: 1
-    languageCode: en
-    languageName: English
+    languageCode: ja
+    languageName: 日本語
     hasCJKLanguage: true
     paginate: 12
     copyright: MIT License.
@@ -94,6 +95,7 @@ languages:
         Twitter: lyrise1984
         Email: lyrise1984@gmail.com
         RSS: true
+
 params:
   version: 0.2.X
   defaultTheme: dark
@@ -337,8 +339,5 @@ outputs:
     - HTML
     - MarkDown
   section:
-    - HTML
-    - RSS
-  taxonomy:
     - HTML
     - RSS
